@@ -6,7 +6,7 @@ class payment
 {
     function vnpay_payment ($invoice_no,$product_total_price){
         $vnp_Url = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-        $vnp_Returnurl =  "http://localhost/shopthoitrang/success_vnpay.php";
+        $vnp_Returnurl =  "http://localhost/shopbongda/success_vnpay.php";
         $vnp_TmnCode = "FSMWMOJ6";
         $vnp_HashSecret = "JVNCZLMKFMVYROGNBZKOAORLOOYXSODH"; 
         $vnp_TxnRef = $invoice_no;
