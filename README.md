@@ -1,3 +1,5 @@
+Setup
+
 Installing
 extract in ..xampp/htdocs and run on localhost
 
